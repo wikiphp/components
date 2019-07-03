@@ -1,0 +1,16 @@
+{
+    "name": "tildeverse/wiki",
+    "description": "parsedown extensions for tilde wikis",
+    "type": "library",
+    "require": {
+        "erusev/parsedown-extra": "^0.7.1",
+        "mnapoli/front-yaml": "^1.6"
+    },
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Ben Harris",
+            "email": "ben@tilde.team"
+        }
+    ]
+}
