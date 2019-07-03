@@ -1,5 +1,5 @@
 <?php
-namespace Wiki;
+namespace Tildeverse\Wiki;
 
 use Mni\FrontYAML;
 
