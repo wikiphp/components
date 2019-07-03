@@ -13,6 +13,6 @@ class Parser implements FrontYAML\Markdown\MarkdownParser {
     }
 
     public static function factory() {
-        return new FrontYAML\Parser(null, new MDParser());
+        return new FrontYAML\Parser(null, new Parser());
     }
 }
