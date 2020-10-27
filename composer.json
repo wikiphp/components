@@ -1,11 +1,11 @@
 {
     "name": "tildeverse/wiki",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "parsedown extensions for tilde wikis",
     "type": "library",
     "require": {
-        "erusev/parsedown-extra": "^0.7.1",
-        "mnapoli/front-yaml": "^1.6"
+        "erusev/parsedown-extra": "^0.8.1",
+        "mnapoli/front-yaml": "^1.7.0"
     },
     "autoload": {
         "psr-4": {"Tildeverse\\Wiki\\": "src/"}
