@@ -1,5 +1,5 @@
 {
-    "name": "tilde.team/wiki",
+    "name": "tildeteam/wiki",
     "version": "0.1.0",
     "description": "parsedown extensions for tilde wikis",
     "keywords": ["markdown", "wiki"],
