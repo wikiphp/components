@@ -6,25 +6,28 @@ sites to power the wiki.
 ## basic usage
 
 1. add tildewiki as a vcs repository in composer.json
+
+    composer require tilde.team/wiki
+
 ```json
 "repositories": [
 	{
 		"type": "vcs",
-		"url": "https://tildegit.org/ben/tildewiki"
+		"url": "https://tildegit.org/team/tildewiki"
 	}
 ]
 ```
 
-1. require tildeverse/wiki in composer.json
+1. require tilde.team/wiki in composer.json
 ```json
 "require": {
-	"tildeverse/wiki": "dev-master"
+	"tilde.team/wiki": "dev-master"
 }
 ```
 
 1. get an instance
 ```php
-$parser = Tildeverse\Wiki\Parser::factory();
+$parser = tilde.team\wiki\Parser::factory();
 ```
 
 1. parse stuff

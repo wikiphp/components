@@ -1,20 +1,26 @@
 {
-    "name": "tildeverse/wiki",
-    "version": "0.0.2",
+    "name": "tilde.team/wiki",
+    "version": "0.1.0",
     "description": "parsedown extensions for tilde wikis",
+    "keywords": ["markdown", "wiki"],
+    "homepage": "https://tildegit.org/team/tildewiki",
     "type": "library",
     "require": {
         "erusev/parsedown-extra": "^0.8.1",
         "mnapoli/front-yaml": "^1.8.0"
     },
     "autoload": {
-        "psr-4": {"Tildeverse\\Wiki\\": "src/"}
+        "psr-4": {
+            "tilde.team\\wiki\\": "src/"
+        }
     },
     "license": "GPLv3",
     "authors": [
         {
             "name": "Ben Harris",
-            "email": "ben@tilde.team"
+            "email": "ben@tilde.team",
+            "homepage": "https://tilde.team/~ben/",
+            "role": "Developer"
         }
     ]
 }
