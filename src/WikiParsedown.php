@@ -1,5 +1,5 @@
 <?php
-namespace Tildeverse\Wiki;
+namespace tildeteam\wiki;
 
 class WikiParsedown extends \ParsedownExtra {
     protected function blockHeader($line) {
