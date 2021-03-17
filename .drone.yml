@@ -14,9 +14,9 @@ steps:
 
 - name: push to packagist.org
   image: curlimages/curl:latest
-  commands: >-
-    curl -X POST -H "content-type:application/json"
-    "https://packagist.org/api/update-package?username=benharri&apiToken=$API_TOKEN"
+  commands: |-
+    curl -X POST -H "content-type:application/json" \
+    "https://packagist.org/api/update-package?username=benharri&apiToken=$API_TOKEN" \
     -d'{"repository":{"url":"PACKAGIST_PACKAGE_URL"}}'
   environment:
     API_TOKEN:
