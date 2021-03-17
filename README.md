@@ -1,17 +1,21 @@
 # tildewiki
 
-this is a small collection of parsedown extensions used across several tildeverse
-sites to power the wiki.
+[![Build Status](https://drone.tildegit.org/api/badges/team/tildewiki/status.svg)](https://drone.tildegit.org/team/tildewiki)
+
+customized [Mni/FrontYaml](https://github.com/mnapoli/frontyaml)
+to use parsedown and a small collection of extensions
+used across several tildeverse sites to power the wiki.
 
 ## basic usage
 
-1. add tildewiki as a vcs repository in composer.json
+1. add tildewiki
 ```php
 composer require tildeteam/wiki
 ```
 
 1. get an instance
 ```php
+require_once __DIR__.'/vendor/autoload.php';
 $parser = tildeteam\wiki\Parser::factory();
 ```
 
