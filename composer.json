@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "tildeteam\\wiki\\": "src/"
+            "tildeteam\\": "src/"
         }
     },
     "license": "GPL-3.0-or-later",

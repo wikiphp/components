@@ -16,7 +16,13 @@ composer require tildeteam/wiki
 1. get an instance
 ```php
 require_once __DIR__.'/vendor/autoload.php';
-$parser = tildeteam\wiki\Parser::factory();
+$parser = tildeteam\wiki::factory();
+```
+
+1. set options
+```php
+tildeteam\wiki::$bootstrap = true;
+tildeteam\wiki::$forkawesome = true;
 ```
 
 1. parse stuff
