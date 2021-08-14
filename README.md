@@ -1,26 +1,26 @@
-# wiki.php components
+# wikiphp/components
 
 Customized [Mni/FrontYaml](https://github.com/mnapoli/frontyaml)
 to use parsedown and a small collection of extensions
-for an updated wiki.php.
+for an updated wikiphp.
 
 ## basic usage
 
 1. add to composer
 ```php
-composer require wiki.php/components
+composer require wikiphp/components
 ```
 
 1. get an instance
 ```php
 require_once __DIR__.'/vendor/autoload.php';
-$parser = wiki.php\components::factory();
+$parser = wikiphp\components::factory();
 ```
 
 1. set options
 ```php
-wiki.php\components::$bootstrap = true;
-wiki.php\components::$forkawesome = true;
+wikiphp\components::$bootstrap = true;
+wikiphp\components::$forkawesome = true;
 ```
 
 1. parse stuff

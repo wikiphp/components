@@ -1,8 +1,8 @@
 {
-    "name": "wiki.php/components",
+    "name": "wikiphp/components",
     "description": "",
     "keywords": ["markdown", "wiki"],
-    "homepage": "http://tloks.com/cgi-bin/gitweb.cgi?p=wiki.php-components.git",
+    "homepage": "http://tloks.com/cgi-bin/gitweb.cgi?p=wikiphp-components.git",
     "type": "library",
     "require": {
         "erusev/parsedown-extra": "^0.8.1",
@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "wiki.php\\": "src/"
+            "wikiphp\\": "src/"
         }
     },
     "license": "AGPL-3.0-or-later",
