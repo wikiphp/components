@@ -1,8 +1,8 @@
 {
-    "name": "tildeteam/wiki",
-    "description": "parsedown extensions for tilde wikis",
+    "name": "wiki.php/components",
+    "description": "",
     "keywords": ["markdown", "wiki"],
-    "homepage": "https://tildegit.org/team/tildewiki",
+    "homepage": "http://tloks.com/cgi-bin/gitweb.cgi?p=wiki.php-components.git",
     "type": "library",
     "require": {
         "erusev/parsedown-extra": "^0.8.1",
@@ -10,11 +10,17 @@
     },
     "autoload": {
         "psr-4": {
-            "tildeteam\\": "src/"
+            "wiki.php\\": "src/"
         }
     },
-    "license": "GPL-3.0-or-later",
+    "license": "AGPL-3.0-or-later",
     "authors": [
+        {
+            "name": "Anton McClure",
+            "email": "anton@tloks.com",
+            "homepage": "https://tloks.com/~anton/",
+            "role": "Developer"
+        },
         {
             "name": "Ben Harris",
             "email": "ben@tilde.team",
